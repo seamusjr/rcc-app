@@ -16,4 +16,11 @@ describe PagesController do
     end
   end
 
+  describe "GET 'services'" do
+    it "should be successful" do
+      get 'services'
+      response.should be_success
+    end
+  end
+
 end
