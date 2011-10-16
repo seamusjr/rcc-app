@@ -2,6 +2,8 @@ RccApp::Application.routes.draw do
 	
   get "pages/services"
 	get "pages/contact"
+	get "pages/about"
+  
   root :to => "pages#home"	  
   # get "pages/home"
 
