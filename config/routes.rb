@@ -1,5 +1,7 @@
 RccApp::Application.routes.draw do
-  get "pages/home"
+    
+  root :to => "pages#home"    
+  # get "pages/home"
 
   get "pages/contact"
 
